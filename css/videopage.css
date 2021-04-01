@@ -1,0 +1,19 @@
+.multimedia{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.multimedia-video{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+video{
+    width: 350px;
+}
+
+video:hover{
+    transform: rotate(2);
+}
